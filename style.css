@@ -167,7 +167,12 @@ footer{
     
 }
 
-..section_3h {
+.section_3e img{
+    /* width: 15px; */
+    height: 25px;
+}
+
+.section_3h {
     margin-top: 55px;
 }
 
