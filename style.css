@@ -146,3 +146,36 @@ footer{
     color: whitesmoke;
     padding-top: 10rem;
 }
+
+.section_3d{
+    width: 92%;
+    margin: auto;
+}
+.img{
+    width: 11rem;
+}
+
+.section_3e, .section_3f, .section_3g{
+    display: flex;
+    margin-top: 50px;
+    /* justify-content: space-between; */
+}
+.section_3e p, .section_3f p, .section_3g p{
+    padding-left: 30px;
+    /* font-size: 12px; */
+    /* width: 100%; */
+    
+}
+
+..section_3h {
+    margin-top: 55px;
+}
+
+.section_3h li{
+    margin-top: 20px;
+}
+
+.section_3j{
+    text-align: center;
+}
+
