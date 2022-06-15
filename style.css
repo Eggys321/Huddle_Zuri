@@ -158,17 +158,12 @@ footer{
 .section_3e, .section_3f, .section_3g{
     display: flex;
     margin-top: 50px;
-    /* justify-content: space-between; */
 }
 .section_3e p, .section_3f p, .section_3g p{
     padding-left: 30px;
-    /* font-size: 12px; */
-    /* width: 100%; */
-    
 }
 
 .section_3e img{
-    /* width: 15px; */
     height: 25px;
 }
 
