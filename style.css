@@ -92,7 +92,7 @@ nav button{
     flex-direction: column;
     text-align: center;
     padding: 5px;
-    height: 30rem;
+    height: 28rem;
 }
 .section_2c img, .section_2d img, .section_2e img{
     width: 15rem;
@@ -111,6 +111,7 @@ nav button{
 }
 
 .section_3c{
+    text-align: center;
     width: 92%;
     margin: auto;
     box-shadow: -1px -1px 5px rgb(194, 191, 191);
