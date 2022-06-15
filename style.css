@@ -18,6 +18,7 @@ body{
     background: url(Assets/bg-hero-mobile.svg) #ECF9FF no-repeat;
     font-family: 'Poppins', sans-serif;
     padding-top: 20px;
+    height: 42rem;
 }
 
 nav{
@@ -77,21 +78,78 @@ nav button{
     width: 92%;
     margin: auto;
 }
-.section_2c{
+
+.section_2b p{
+    width: 95%;
+}
+.section_2c , .section_2d, .section_2e {
     /* border: 1px solid black; */
     border: none;
-    margin-top: 5rem;
-    box-shadow: -1px 1px 6px ;
+    border-radius: 15px;
+    margin: 5rem 0 80px 0;
+    box-shadow: -1px 1px 5px rgb(226, 225, 225);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 15px;
-    margin-bottom: 80px;
+    padding: 5px;
+    /* margin-bottom: 80px; */
+    height: 25rem;
     /* width: 80%;
     margin: auto; */
 }
-.section_2c img{
-    width: 8rem;
+.section_2c img, .section_2d img, .section_2e img{
+    width: 15rem;
+    margin-bottom: 55px;
+    
+}
+
+/* Section_3 Styling */
+.section_3{
+    margin-top: 12rem;
+    /* position: relative; */
+}
+
+.section_3b{
+    position: relative;
+    z-index: -1;
+}
+
+.section_3c{
+    width: 92%;
+    margin: auto;
+    box-shadow: -1px -1px 5px rgb(194, 191, 191);
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #FAFFFF;
+    position: absolute;
+    top: -5rem;
+    left: 13px;
+    z-index: 1;
+}
+
+.section_3c button{
+    background-color: #FE52C0;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: none;
+    color: #FFE9FF;
+    margin-top: 25px;
+    box-shadow: 1px 3px 1px grey ;
+}
+
+footer{
+    /* position: relative;
+    z-index: 1px; */
+    background-color: #00252E;
+    color: whitesmoke;
+    padding-top: 10rem;
 }
